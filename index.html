@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>한샘푸드</title>
+    <script src="index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="/common/reset.css" />
+    <!-- 리셋 css 무조건 맨 위에 있어야함 -->
+    <link rel="stylesheet" href="root/root.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="swiper.css" />
+    <link rel="stylesheet" href="banner.css" />
+    <link rel="stylesheet" href="sectionFood.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__logo"><img src="/img/logo.png" alt="" /></div>
+
+        <div class="gnb__wrab">
+          <ul class="gnb__box">
+            <li class="gnb">
+              <a href="">
+                <div class="text__ani link__box">
+                  <div>한샘푸드</div>
+                  <div class="duplicate">한샘푸드</div>
+                </div>
+              </a>
+              <div class="snbwrap"></div>
+            </li>
+
+            <li class="gnb">
+              <a href="">
+                <div class="text__ani link__box">
+                  <div>운영관리</div>
+                  <div class="duplicate">운영관리</div>
+                </div>
+              </a>
+              <div class="snbwrap"></div>
+            </li>
+
+            <li class="gnb">
+              <a href="">
+                <div class="text__ani link__box">
+                  <div>사업영역</div>
+                  <div class="duplicate">사업영역</div>
+                </div>
+              </a>
+              <div class="snbwrap"></div>
+            </li>
+
+            <li class="gnb">
+              <a href="">
+                <div class="text__ani link__box">
+                  <div>공지사항</div>
+                  <div class="duplicate">공지사항</div>
+                </div>
+              </a>
+              <div class="snbwrap"></div>
+            </li>
+
+            <li class="gnb">
+              <a href="">
+                <div class="text__ani link__box">
+                  <div>한샘스토리</div>
+                  <div class="duplicate">한샘스토리</div>
+                </div>
+              </a>
+              <div class="snbwrap"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="ani__button">
+          <div class="text__ani2 link__box">
+            <div>온라인 문의</div>
+            <div class="duplicatebtn">온라인 문의</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="/img/배너1.png" alt="" class="banner__img1" />
+            <div class="blur"></div>
+            <h1 class="swiper__text">
+              안전한 관리, 균형 잡힌 식단 <br />한샘푸드가 함께합니다.
+            </h1>
+            <div class="ani__button bannerbtn">
+              <div class="text__ani2 link__box">
+                <div>자세히 보기</div>
+                <div class="duplicatebtn">자세히 보기</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/배너2.png" alt="" class="banner__img2" />
+            <div class="blur"></div>
+            <h1 class="swiper__text">
+              안전한 관리, 균형 잡힌 식단 <br />한샘푸드가 함께합니다.
+            </h1>
+            <div class="ani__button bannerbtn">
+              <div class="text__ani2 link__box">
+                <div>자세히 보기</div>
+                <div class="duplicatebtn">자세히 보기</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="/img/배너4.png" alt="" class="banner__img3" />
+            <div class="blur"></div>
+            <h1 class="swiper__text">
+              안전한 관리, 균형 잡힌 식단 <br />한샘푸드가 함께합니다.
+            </h1>
+            <div class="ani__button bannerbtn">
+              <div class="text__ani2 link__box">
+                <div>자세히 보기</div>
+                <div class="duplicatebtn">자세히 보기</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/배너3.png" alt="" class="banner__img4" />
+            <div class="blur"></div>
+            <h1 class="swiper__text">
+              안전한 관리, 균형 잡힌 식단 <br />한샘푸드가 함께합니다.
+            </h1>
+            <div class="ani__button bannerbtn">
+              <div class="text__ani2 link__box">
+                <div>자세히 보기</div>
+                <div class="duplicatebtn">자세히 보기</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </section>
+
+    <section class="food">
+      
+     <div class="text__layout1"> 
+      <h1 class="food__text__top food__text">한샘푸드는</h1>
+      <div class="img__food"><img src="/img/carrot.png" alt=""class="img__carrot"></div>
+    </div>
+    
+    <div class="text__layout2"> 
+       <h1 class="food__text__mid1 food__text">자연이</h1>
+       <div class="img__food"><img src="/img/leaf.png" alt=""class="img__leaf"></div>
+       <h1 class="food__text__mid2 food__text">담긴 건강하고</h1>
+    </div>
+
+    
+    <div class="text__layout3"> 
+       <h1 class="foot__text__bottom1 food__text">맛있는 식사를</h1>
+       <div class="img__food"><img src="/img/egg.png" alt="" class="img__egg"></div>
+       <h1 class="foot__text__bottom2 food__text">제공합니다.</h1>
+    </div>
+
+
+    <i class="fa-solid fa-asterisk big__star star__green star1"></i>
+<i class="fa-solid fa-star-of-life small__star star__green star2"></i>
+
+<i class="fa-solid fa-asterisk big__star star__orange star3"></i>
+<i class="fa-solid fa-star-of-life small__star star__orange star4"></i>
+
+<i class="fa-solid fa-asterisk big__star star__yellow star5"></i>
+<i class="fa-solid fa-star-of-life small__star star__yellow star6"></i>
+    </section>
+  </body>
+</html>
