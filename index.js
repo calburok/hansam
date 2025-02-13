@@ -158,15 +158,39 @@ const TL2 = gsap.timeline({
     start: "bottom top",
     markers: true,
     speed: 1,
-    repeat: -1,
   },
 });
 
-TL2.to(".star2", {
+TL2.to(".star4", {
   y: 20,
+  x: 5,
   duration: 1,
+  repeat: -1,
+  yoyo: true,
 });
-TL2.to(".star2", {
+TL2.to(".star4", {
   y: -20,
+  x: -5,
   duration: 2,
+  repeat: -1,
+  yoyo: true,
+});
+
+TL2.to(
+  ".star5",
+  {
+    y: 20,
+    x: -10,
+    duration: 1,
+    repeat: -1,
+    yoyo: true,
+  },
+  0
+);
+TL2.to(".star5", {
+  y: -20,
+  x: 10,
+  duration: 2,
+  repeat: -1,
+  yoyo: true,
 });
