@@ -65,7 +65,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 
@@ -76,7 +76,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 TL.fromTo(
@@ -86,7 +86,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 TL.fromTo(
@@ -96,7 +96,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 TL.fromTo(
@@ -106,7 +106,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 
@@ -117,7 +117,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 
@@ -128,7 +128,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 
@@ -139,7 +139,7 @@ TL.fromTo(
   },
   {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   }
 );
 
@@ -253,158 +253,217 @@ const TL5 = gsap.timeline({
 cardTop.addEventListener("mouseover", () => {
   TL5.to(".person", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person1", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person2", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person3", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person4", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person5", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person6", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person7", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person8", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person9", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person10", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person11", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person12", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person13", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person14", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person15", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person16", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person17", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person18", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person19", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person20", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person21", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person22", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person23", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person24", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person25", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person26", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person27", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person28", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person29", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person30", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person31", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person32", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person33", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person34", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person35", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person36", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person37", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
   TL5.to(".person38", {
     opacity: 1,
-    duration: 0.25,
+    duration: 0.05,
   });
+});
+
+const TL6 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".confident",
+    start: "50% 50%",
+    markers: true,
+  },
+});
+
+TL6.fromTo(
+  ".confident__card",
+  {
+    x: 2000,
+  },
+  {
+    x: 0,
+    duration: 2.5,
+    stagger: 0.1,
+    ease: "bounce.out",
+  }
+);
+
+//페이지네이션
+
+const TL7 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sequenceCard1",
+    start: "top 10%",
+    end: "120% top",
+    pin: true,
+    scrub: true,
+    markers: true,
+  },
+});
+TL7.to(".sequenceCard1", { scale: 0.9, duration: 5 });
+TL7.to(".sequenceCard1", { scale: 0 });
+
+const TL8 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sequenceCard2",
+    start: "top 10%",
+    end: "120% top",
+    pin: true,
+    scrub: true,
+    markers: true,
+  },
+});
+TL8.to(".sequenceCard2", { scale: 0.9, duration: 5 });
+TL8.to(".sequenceCard1", { scale: 0 });
+const TL9 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sequenceCard3",
+    start: "top 10%",
+    end: "9% 9% ",
+    pin: true,
+    scrub: true,
+    markers: true,
+  },
 });
