@@ -1,0 +1,13 @@
+.confident {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confient__text {
+  font-family: "NanumSquareNeoExtraBold";
+  font-size: var(--font-40);
+  color: var(--main-color);
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
